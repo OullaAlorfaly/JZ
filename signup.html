@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="icon" href="http://tv.jt.iq/website/images/logo.png">
+
+        <title>SignUp</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+
+        <!-- Theme CSS -->
+        <link href="assets/css/style1.css" rel="stylesheet">
+        <!--<link href="assets/materialize/css/materialize.min.css" rel="stylesheet">-->
+        <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+        <link href="assets/css/font-circle-video.css" rel="stylesheet">
+        <link href="assets/css/bootstrap-datepicker.min.css" rel="stylesheet">
+
+        <!-- Js -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <!--<script src="assets/materialize/js/materialize.min.js"></script>-->
+        <script src="assets/js/bootstrap-datepicker.min.js"></script>
+
+
+
+        <!-- font-family: 'Hind', sans-serif; -->
+        <link href='https://fonts.googleapis.com/css?family=Hind:400,300,500,600,700|Hind+Guntur:300,400,500,700' rel='stylesheet' type='text/css'>
+    </head>
+
+    <body class="dark">
+
+        <!-- logo, menu, search, avatar -->
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-nav" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/img/logo.png" alt="Project name" class="logo" />
+                    </a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="top-nav">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="movies.html">Movies</a></li>
+                        <li><a href="series.html">Series</a></li>
+                        <li><a href="tv.html"><h class="blinking">.</h>TV</a></li>
+
+                    </ul>
+                    <form action="search.html" method="post" class="navbar-form navbar-left">
+                        <div class="topsearch">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                                <input type="text" class="form-control" placeholder="Search here . . .">
+                                <div class="input-group-btn">
+                                    <button type="submit" class="btn btn-default">Go!</button>
+                                </div><!-- /btn-group -->
+                            </div>
+                        </div>
+                    </form>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">
+                            <div class="avatar pull-left">
+                                <img src="assets/img/avatar.png" alt="avatar" class="img-responsive" />
+                                <span class="status"></span>
+                            </div>
+                        </a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Account <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="login.html"><i class="fa fa-sign-in" aria-hidden="true" style="color: #ea2c5a!important;"></i> Login</a></li>
+                                <li><a href="signup.html"><i class="fa fa-user-plus" aria-hidden="true"style="color: #ea2c5a!important;"></i> Sign up</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+        <!-- /Nav -->
+
+        <!--Main-Content-->
+        <div class="content-wrapper">
+            <div class="container">
+                <div class="row signup-block">
+                    <div class="col-md-8 col-md-offset-2">
+                        <form>
+                            <div class="row signup-form">
+                                <div class="col-md-12 title">
+                                  <span class="text">SignUp</span>
+                                </div>
+                                <div class="form-group col-md-6 col-sm-6">
+                                    <input type="text" class="form-control" placeholder="First Name">
+                                </div>
+                                <div class="form-group col-md-6 col-sm-6">
+                                    <input type="text" class="form-control" placeholder="Last Name">
+                                </div>
+                                <div class="form-group col-md-6 col-sm-6">
+                                    <input type="text" class="form-control" placeholder="Username">
+                                </div>
+                                <div class="form-group col-md-6 col-sm-6">
+                                    <input type="email" class="form-control" placeholder="E-mail">
+                                </div>
+                                <div class="form-group col-md-6 col-sm-6">
+                                    <input type="password" class="form-control" placeholder="Password">
+                                </div>
+                                <div class="form-group col-md-6 col-sm-6">
+                                    <input type="password" class="form-control" placeholder="Re-Password">
+                                </div>
+                                <div class="form-group col-md-6 col-sm-6">
+                                    <div class="input-group date" id='datetimepicker1'>
+                                        <input type="text" class="form-control" placeholder="Birthday" />
+                                        <span class="input-group-addon">
+                                        <span class="glyphicon glyphicon-calendar"></span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="form-group col-md-6 col-sm-6">
+                                    <div class="input-group">
+                                        <input type="file" id="files-input-upload" style="display:none">
+                                        <input type="text" id="fake-file-input-name" disabled="disabled" placeholder="File not selected" class="form-control">
+                                        <span class="input-group-btn">
+                                        <button id="fake-file-button-browse" type="button" class="btn btn-default">
+                                            <span class="glyphicon glyphicon-file"></span>
+                                        </button>
+                                    </span>
+                                    </div>
+                                </div>
+
+                                <div class="form-group col-md-6 col-md-offset-3 text-center signup-btns">
+                                <button type="submit" class="btn btn-default ok-btn"><i class="fa fa-check" aria-hidden="true"></i> DONE</button>
+                                    <a href="#" class="btn btn-default cancel-btn"><i class="fa fa-times" aria-hidden="true"></i> CANCEL</a>
+                                </div>
+                            </div>
+
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/Main-Content-->
+
+
+        <!-- footer -->
+        <footer>
+            <div class="container-fluid">
+                <div class="row nospace">
+                    <div class="container">
+                        <div class="col-lg-10 col-lg-offset-1 footer-prop">
+                            <p>Copyrights 2017 <a href="index.html">Al-Jazeera Telecom</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- /footer -->
+
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('#datetimepicker1').datepicker({
+                    format: "dd/mm/yyyy",
+//
+                });
+            });
+        </script>
+        <script type="text/javascript">
+            // Fake file upload
+            document.getElementById('fake-file-button-browse').addEventListener('click', function() {
+                document.getElementById('files-input-upload').click();
+            });
+
+            document.getElementById('files-input-upload').addEventListener('change', function() {
+                document.getElementById('fake-file-input-name').value = this.value;
+
+                document.getElementById('fake-file-button-upload').removeAttribute('disabled');
+            });
+        </script>
+
+    </body>
+</html>

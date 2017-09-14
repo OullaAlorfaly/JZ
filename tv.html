@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="icon" href="http://tv.jt.iq/website/images/logo.png">
+
+        <title>Home Page</title>
+
+        <!-- Bootstrap core CSS -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Theme CSS -->
+        <link href="assets/css/style1.css" rel="stylesheet">
+        <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+        <link href="assets/css/font-circle-video.css" rel="stylesheet">
+
+        <!-- JS -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+
+
+
+        <!-- font-family: 'Hind', sans-serif; -->
+        <link href='https://fonts.googleapis.com/css?family=Hind:400,300,500,600,700|Hind+Guntur:300,400,500,700' rel='stylesheet' type='text/css'>
+
+        <style>
+
+        </style>
+    </head>
+
+    <body class="dark">
+        <!-- logo, menu, search, avatar -->
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-nav" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/img/logo.png" alt="Project name" class="logo" />
+                    </a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="top-nav">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="movies.html">Movies</a></li>
+                        <li><a href="series.html">Series</a></li>
+                        <li class="active"><a href="tv.html"><h class="blinking">.</h>TV</a></li>
+
+                    </ul>
+                    <form action="search.html" method="post" class="navbar-form navbar-left">
+                        <div class="topsearch">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                                <input type="text" class="form-control" placeholder="Search here . . .">
+                                <div class="input-group-btn">
+                                    <button type="submit" class="btn btn-default">Go!</button>
+                                </div><!-- /btn-group -->
+                            </div>
+                        </div>
+                    </form>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">
+                            <div class="avatar pull-left">
+                                <img src="assets/img/avatar.png" alt="avatar" class="img-responsive" />
+                                <span class="status"></span>
+                            </div>
+                        </a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Account <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="login.html"><i class="fa fa-sign-in" aria-hidden="true" style="color: #ea2c5a!important;"></i> Login</a></li>
+                                <li><a href="signup.html"><i class="fa fa-user-plus" aria-hidden="true"style="color: #ea2c5a!important;"></i> Sign up</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+        <!-- /Nav -->
+
+        <!--Main-Content-->
+        <div class="content-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="channel-list">
+                            <div class="row nospace">
+                                <div class="col-md-12 col-sm-12 col-xs-12 list-title">
+                                    <span class="list-title-text">Featured Channels</span>
+                                    <div class="title-arrow">
+                                        <i class="fa fa-chevron-left icon-left" aria-hidden="true"></i>
+                                        <i class="fa fa-chevron-right icon-right" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row nospace">
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="margin-bottom: 20px;">
+                                    <div class="channel-item">
+                                        <div class="channel-img">
+                                            <a href="channel.html">
+                                                <img class="img-responsive" src="http://temosoft.com/wp-content/uploads/2015/03/action_logo_fb.jpg" alt="">
+                                                <div class="channel-img-inner">
+                                                    <i class="fa fa-play-circle play-icon fa-2x " data-link="/334100/super-dark-times-2017"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="margin-bottom: 20px;">
+                                    <div class="channel-item">
+                                        <div class="channel-img">
+                                            <a href="channel.html">
+                                                <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/ar/5/5e/MBC4_LOGO.jpg" alt="">
+                                                <div class="channel-img-inner">
+                                                    <i class="fa fa-play-circle play-icon fa-2x " data-link="/334100/super-dark-times-2017"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="margin-bottom: 20px;">
+                                    <div class="channel-item">
+                                        <div class="channel-img">
+                                            <a href="channel.html">
+                                                <img class="img-responsive" src="http://temosoft.com/wp-content/uploads/2015/03/action_logo_fb.jpg" alt="">
+                                                <div class="channel-img-inner">
+                                                    <i class="fa fa-play-circle play-icon fa-2x " data-link="/334100/super-dark-times-2017"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="margin-bottom: 20px;">
+                                    <div class="channel-item">
+                                        <div class="channel-img">
+                                            <a href="channel.html">
+                                                <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/ar/5/5e/MBC4_LOGO.jpg" alt="">
+                                                <div class="channel-img-inner">
+                                                    <i class="fa fa-play-circle play-icon fa-2x " data-link="/334100/super-dark-times-2017"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="margin-bottom: 20px;">
+                                    <div class="channel-item">
+                                        <div class="channel-img">
+                                            <a href="channel.html">
+                                                <img class="img-responsive" src="http://temosoft.com/wp-content/uploads/2015/03/action_logo_fb.jpg" alt="">
+                                                <div class="channel-img-inner">
+                                                    <i class="fa fa-play-circle play-icon fa-2x " data-link="/334100/super-dark-times-2017"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="margin-bottom: 20px;">
+                                    <div class="channel-item">
+                                        <div class="channel-img">
+                                            <a href="channel.html">
+                                                <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/ar/5/5e/MBC4_LOGO.jpg" alt="">
+                                                <div class="channel-img-inner">
+                                                    <i class="fa fa-play-circle play-icon fa-2x " data-link="/334100/super-dark-times-2017"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="margin-bottom: 20px;">
+                                    <div class="channel-item">
+                                        <div class="channel-img">
+                                            <a href="channel.html">
+                                                <img class="img-responsive" src="http://temosoft.com/wp-content/uploads/2015/03/action_logo_fb.jpg" alt="">
+                                                <div class="channel-img-inner">
+                                                    <i class="fa fa-play-circle play-icon fa-2x " data-link="/334100/super-dark-times-2017"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="margin-bottom: 20px;">
+                                    <div class="channel-item">
+                                        <div class="channel-img">
+                                            <a href="channel.html">
+                                                <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/ar/5/5e/MBC4_LOGO.jpg" alt="">
+                                                <div class="channel-img-inner">
+                                                    <i class="fa fa-play-circle play-icon fa-2x " data-link="/334100/super-dark-times-2017"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="margin-bottom: 20px;">
+                                    <div class="channel-item">
+                                        <div class="channel-img">
+                                            <a href="channel.html">
+                                                <img class="img-responsive" src="http://temosoft.com/wp-content/uploads/2015/03/action_logo_fb.jpg" alt="">
+                                                <div class="channel-img-inner">
+                                                    <i class="fa fa-play-circle play-icon fa-2x " data-link="/334100/super-dark-times-2017"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="margin-bottom: 20px;">
+                                    <div class="channel-item">
+                                        <div class="channel-img">
+                                            <a href="channel.html">
+                                                <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/ar/5/5e/MBC4_LOGO.jpg" alt="">
+                                                <div class="channel-img-inner">
+                                                    <i class="fa fa-play-circle play-icon fa-2x " data-link="/334100/super-dark-times-2017"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="margin-bottom: 20px;">
+                                    <div class="channel-item">
+                                        <div class="channel-img">
+                                            <a href="channel.html">
+                                                <img class="img-responsive" src="http://temosoft.com/wp-content/uploads/2015/03/action_logo_fb.jpg" alt="">
+                                                <div class="channel-img-inner">
+                                                    <i class="fa fa-play-circle play-icon fa-2x " data-link="/334100/super-dark-times-2017"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="margin-bottom: 20px;">
+                                    <div class="channel-item">
+                                        <div class="channel-img">
+                                            <a href="channel.html">
+                                                <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/ar/5/5e/MBC4_LOGO.jpg" alt="">
+                                                <div class="channel-img-inner">
+                                                    <i class="fa fa-play-circle play-icon fa-2x " data-link="/334100/super-dark-times-2017"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="channel-list">
+                            <div class="row nospace">
+                                <div class="col-md-12 col-sm-12 col-xs-12 list-title">
+                                    <span class="list-title-text">Best Channels</span>
+                                    <div class="title-arrow">
+                                        <i class="fa fa-chevron-left icon-left" aria-hidden="true"></i>
+                                        <i class="fa fa-chevron-right icon-right" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row nospace">
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="margin-bottom: 20px;">
+                                    <div class="channel-item">
+                                        <div class="channel-img">
+                                            <a href="channel.html">
+                                                <img class="img-responsive" src="http://temosoft.com/wp-content/uploads/2015/03/action_logo_fb.jpg" alt="">
+                                                <div class="channel-img-inner">
+                                                    <i class="fa fa-play-circle play-icon fa-2x " data-link="/334100/super-dark-times-2017"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="margin-bottom: 20px;">
+                                    <div class="channel-item">
+                                        <div class="channel-img">
+                                            <a href="channel.html">
+                                                <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/ar/5/5e/MBC4_LOGO.jpg" alt="">
+                                                <div class="channel-img-inner">
+                                                    <i class="fa fa-play-circle play-icon fa-2x " data-link="/334100/super-dark-times-2017"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="margin-bottom: 20px;">
+                                    <div class="channel-item">
+                                        <div class="channel-img">
+                                            <a href="channel.html">
+                                                <img class="img-responsive" src="http://temosoft.com/wp-content/uploads/2015/03/action_logo_fb.jpg" alt="">
+                                                <div class="channel-img-inner">
+                                                    <i class="fa fa-play-circle play-icon fa-2x " data-link="/334100/super-dark-times-2017"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="margin-bottom: 20px;">
+                                    <div class="channel-item">
+                                        <div class="channel-img">
+                                            <a href="channel.html">
+                                                <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/ar/5/5e/MBC4_LOGO.jpg" alt="">
+                                                <div class="channel-img-inner">
+                                                    <i class="fa fa-play-circle play-icon fa-2x " data-link="/334100/super-dark-times-2017"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="margin-bottom: 20px;">
+                                    <div class="channel-item">
+                                        <div class="channel-img">
+                                            <a href="channel.html">
+                                                <img class="img-responsive" src="http://temosoft.com/wp-content/uploads/2015/03/action_logo_fb.jpg" alt="">
+                                                <div class="channel-img-inner">
+                                                    <i class="fa fa-play-circle play-icon fa-2x " data-link="/334100/super-dark-times-2017"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="margin-bottom: 20px;">
+                                    <div class="channel-item">
+                                        <div class="channel-img">
+                                            <a href="channel.html">
+                                                <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/ar/5/5e/MBC4_LOGO.jpg" alt="">
+                                                <div class="channel-img-inner">
+                                                    <i class="fa fa-play-circle play-icon fa-2x " data-link="/334100/super-dark-times-2017"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="margin-bottom: 20px;">
+                                    <div class="channel-item">
+                                        <div class="channel-img">
+                                            <a href="channel.html">
+                                                <img class="img-responsive" src="http://temosoft.com/wp-content/uploads/2015/03/action_logo_fb.jpg" alt="">
+                                                <div class="channel-img-inner">
+                                                    <i class="fa fa-play-circle play-icon fa-2x " data-link="/334100/super-dark-times-2017"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="margin-bottom: 20px;">
+                                    <div class="channel-item">
+                                        <div class="channel-img">
+                                            <a href="channel.html">
+                                                <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/ar/5/5e/MBC4_LOGO.jpg" alt="">
+                                                <div class="channel-img-inner">
+                                                    <i class="fa fa-play-circle play-icon fa-2x " data-link="/334100/super-dark-times-2017"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="margin-bottom: 20px;">
+                                    <div class="channel-item">
+                                        <div class="channel-img">
+                                            <a href="channel.html">
+                                                <img class="img-responsive" src="http://temosoft.com/wp-content/uploads/2015/03/action_logo_fb.jpg" alt="">
+                                                <div class="channel-img-inner">
+                                                    <i class="fa fa-play-circle play-icon fa-2x " data-link="/334100/super-dark-times-2017"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="margin-bottom: 20px;">
+                                    <div class="channel-item">
+                                        <div class="channel-img">
+                                            <a href="channel.html">
+                                                <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/ar/5/5e/MBC4_LOGO.jpg" alt="">
+                                                <div class="channel-img-inner">
+                                                    <i class="fa fa-play-circle play-icon fa-2x " data-link="/334100/super-dark-times-2017"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="margin-bottom: 20px;">
+                                    <div class="channel-item">
+                                        <div class="channel-img">
+                                            <a href="channel.html">
+                                                <img class="img-responsive" src="http://temosoft.com/wp-content/uploads/2015/03/action_logo_fb.jpg" alt="">
+                                                <div class="channel-img-inner">
+                                                    <i class="fa fa-play-circle play-icon fa-2x " data-link="/334100/super-dark-times-2017"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="margin-bottom: 20px;">
+                                    <div class="channel-item">
+                                        <div class="channel-img">
+                                            <a href="channel.html">
+                                                <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/ar/5/5e/MBC4_LOGO.jpg" alt="">
+                                                <div class="channel-img-inner">
+                                                    <i class="fa fa-play-circle play-icon fa-2x " data-link="/334100/super-dark-times-2017"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="channel-list">
+                            <div class="row nospace">
+                                <div class="col-md-12 col-sm-12 col-xs-12 list-title">
+                                    <span class="list-title-text">Most Popular Channels</span>
+                                    <div class="title-arrow">
+                                        <i class="fa fa-chevron-left icon-left" aria-hidden="true"></i>
+                                        <i class="fa fa-chevron-right icon-right" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row nospace">
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="margin-bottom: 20px;">
+                                    <div class="channel-item">
+                                        <div class="channel-img">
+                                            <a href="channel.html">
+                                                <img class="img-responsive" src="http://temosoft.com/wp-content/uploads/2015/03/action_logo_fb.jpg" alt="">
+                                                <div class="channel-img-inner">
+                                                    <i class="fa fa-play-circle play-icon fa-2x " data-link="/334100/super-dark-times-2017"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="margin-bottom: 20px;">
+                                    <div class="channel-item">
+                                        <div class="channel-img">
+                                            <a href="channel.html">
+                                                <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/ar/5/5e/MBC4_LOGO.jpg" alt="">
+                                                <div class="channel-img-inner">
+                                                    <i class="fa fa-play-circle play-icon fa-2x " data-link="/334100/super-dark-times-2017"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="margin-bottom: 20px;">
+                                    <div class="channel-item">
+                                        <div class="channel-img">
+                                            <a href="channel.html">
+                                                <img class="img-responsive" src="http://temosoft.com/wp-content/uploads/2015/03/action_logo_fb.jpg" alt="">
+                                                <div class="channel-img-inner">
+                                                    <i class="fa fa-play-circle play-icon fa-2x " data-link="/334100/super-dark-times-2017"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="margin-bottom: 20px;">
+                                    <div class="channel-item">
+                                        <div class="channel-img">
+                                            <a href="channel.html">
+                                                <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/ar/5/5e/MBC4_LOGO.jpg" alt="">
+                                                <div class="channel-img-inner">
+                                                    <i class="fa fa-play-circle play-icon fa-2x " data-link="/334100/super-dark-times-2017"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="margin-bottom: 20px;">
+                                    <div class="channel-item">
+                                        <div class="channel-img">
+                                            <a href="channel.html">
+                                                <img class="img-responsive" src="http://temosoft.com/wp-content/uploads/2015/03/action_logo_fb.jpg" alt="">
+                                                <div class="channel-img-inner">
+                                                    <i class="fa fa-play-circle play-icon fa-2x " data-link="/334100/super-dark-times-2017"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="margin-bottom: 20px;">
+                                    <div class="channel-item">
+                                        <div class="channel-img">
+                                            <a href="channel.html">
+                                                <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/ar/5/5e/MBC4_LOGO.jpg" alt="">
+                                                <div class="channel-img-inner">
+                                                    <i class="fa fa-play-circle play-icon fa-2x " data-link="/334100/super-dark-times-2017"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="margin-bottom: 20px;">
+                                    <div class="channel-item">
+                                        <div class="channel-img">
+                                            <a href="channel.html">
+                                                <img class="img-responsive" src="http://temosoft.com/wp-content/uploads/2015/03/action_logo_fb.jpg" alt="">
+                                                <div class="channel-img-inner">
+                                                    <i class="fa fa-play-circle play-icon fa-2x " data-link="/334100/super-dark-times-2017"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="margin-bottom: 20px;">
+                                    <div class="channel-item">
+                                        <div class="channel-img">
+                                            <a href="channel.html">
+                                                <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/ar/5/5e/MBC4_LOGO.jpg" alt="">
+                                                <div class="channel-img-inner">
+                                                    <i class="fa fa-play-circle play-icon fa-2x " data-link="/334100/super-dark-times-2017"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="margin-bottom: 20px;">
+                                    <div class="channel-item">
+                                        <div class="channel-img">
+                                            <a href="channel.html">
+                                                <img class="img-responsive" src="http://temosoft.com/wp-content/uploads/2015/03/action_logo_fb.jpg" alt="">
+                                                <div class="channel-img-inner">
+                                                    <i class="fa fa-play-circle play-icon fa-2x " data-link="/334100/super-dark-times-2017"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="margin-bottom: 20px;">
+                                    <div class="channel-item">
+                                        <div class="channel-img">
+                                            <a href="channel.html">
+                                                <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/ar/5/5e/MBC4_LOGO.jpg" alt="">
+                                                <div class="channel-img-inner">
+                                                    <i class="fa fa-play-circle play-icon fa-2x " data-link="/334100/super-dark-times-2017"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="margin-bottom: 20px;">
+                                    <div class="channel-item">
+                                        <div class="channel-img">
+                                            <a href="channel.html">
+                                                <img class="img-responsive" src="http://temosoft.com/wp-content/uploads/2015/03/action_logo_fb.jpg" alt="">
+                                                <div class="channel-img-inner">
+                                                    <i class="fa fa-play-circle play-icon fa-2x " data-link="/334100/super-dark-times-2017"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" style="margin-bottom: 20px;">
+                                    <div class="channel-item">
+                                        <div class="channel-img">
+                                            <a href="channel.html">
+                                                <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/ar/5/5e/MBC4_LOGO.jpg" alt="">
+                                                <div class="channel-img-inner">
+                                                    <i class="fa fa-play-circle play-icon fa-2x " data-link="/334100/super-dark-times-2017"></i>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--/Main-Content-->
+
+        <!-- footer -->
+        <footer>
+            <div class="container-fluid">
+                <div class="row nospace">
+                    <div class="container">
+                        <div class="col-lg-10 col-lg-offset-1 footer-prop">
+                            <p>Copyrights 2017 <a href="index.html">Al-Jazeera Telecom</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- /footer -->
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+
+    </body>
+</html>
